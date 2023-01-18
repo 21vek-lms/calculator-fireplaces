@@ -2504,13 +2504,12 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #007bff;
-  border-color: #007bff;
+  border-color: linear-gradient(to right, #990099 0%, #A5247A 33%, #C81E6B  66%, #FF0066  100%);;
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #0069d9;
-  border-color: #0062cc;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -8975,4 +8974,22 @@ a.text-dark:hover, a.text-dark:focus {
 .res {
   font-size: 20px;
 }
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #990099 0%, #A5247A 33%, #C81E6B  66%, #FF0066  100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
